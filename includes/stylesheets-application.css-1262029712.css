@@ -1,0 +1,199 @@
+
+
+
+
+
+
+
+hr {
+  display: none; }
+
+
+body {
+  border-top: 10px solid #bbac46;
+  font-family: Helvetica, "Lucida Grande", Verdana, sans-serif;
+  font-size: medium;
+  color: #000000;
+  background-color: #222222;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0; }
+
+a {
+  padding: 2px;
+  color: #326ea1;
+  text-decoration: underline; }
+
+a:hover {
+  color: #ffffff;
+  background-color: #326ea1; }
+
+a.project {
+  padding: 0; }
+
+a.project:hover {
+  color: #fff; }
+
+h1, h2, h3 {
+  text-transform: uppercase; }
+
+#featured {
+  float: right;
+  width: 250px; }
+
+#other_content {
+  float: left;
+  width: 550px; }
+
+#header {
+  background: #8b9994 url(images/images-header_gradient.gif) repeat-x scroll bottom left;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+  #header a:hover {
+    color: #ffffff;
+    background-color: #8b9994; }
+  #header div {
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative; }
+    #header div h1 {
+      float: left;
+      margin: 0;
+      padding: 12px 0; }
+      #header div h1 a {
+        padding: 0;
+        display: block; }
+    #header div h3 {
+      text-align: right;
+      margin: 0;
+      padding: 0; }
+    #header div ul {
+      float: right;
+      padding: 0;
+      margin: 66px 0 0 20px;
+      list-style-image: none;
+      list-style-position: outside;
+      list-style-type: none; }
+      #header div ul li {
+        font-size: 90%;
+        float: left;
+        font-weight: bold;
+        padding: 0;
+        margin: 0 0 0 2px;
+        background: #aca98f;
+        text-transform: uppercase; }
+        #header div ul li a {
+          color: #fff;
+          text-decoration: none;
+          display: block;
+          float: left;
+          padding: 10px 14px; }
+        #header div ul li a:hover {
+          color: #000;
+          background: #bbac46; }
+      #header div ul li.selected {
+        color: #000;
+        background: #ffffff; }
+        #header div ul li.selected a {
+          color: #000; }
+
+#header:after, #wrap-inner:after, #content .section:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+
+#wrap {
+  background: #222222;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  background: #ffffff; }
+
+#wrap-inner {
+  width: 950px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 95%;
+  text-align: left; }
+
+
+#content {
+  float: left;
+  width: 900px; }
+  #content #project_list {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    #content #project_list li {
+      float: left;
+      padding: 20px 12px; }
+  #content .code {
+    font-family: monospace;
+    background: #000;
+    color: #fff;
+    padding: 10px; }
+
+#projects {
+  display: none;
+  width: 120px;
+  background: #ccc;
+  float: right; }
+
+
+.tooltip_icon {
+  cursor: help; }
+
+.tooltip {
+  border: 1px solid #c93;
+  background-color: #FDFDE7;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  z-index: 100; }
+  .tooltip .arrow {
+    position: absolute;
+    top: 5px;
+    width: 10px;
+    height: 19px; }
+  .tooltip .arrow-left {
+    background: transparent url(images/images-tooltip-arrow-left.gif) left top no-repeat; }
+  .tooltip .arrow-right {
+    background: transparent url(images/images-tooltip-arrow-right.gif) right top no-repeat; }
+  .tooltip .title {
+    background-color: #ffc;
+    padding: 4px;
+    margin: 0px;
+    font-size: 0.9em;
+    text-align: left;
+    height: 16px; }
+  .tooltip .content {
+    padding: 5px;
+    margin: 0px;
+    font-size: 1em; }
+
+
+#footer {
+  background: #222 url(images/images-footer_gradient.gif) repeat-x scroll;
+  color: #999;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center; }
+  #footer #footer-inner {
+    width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 90%;
+    line-height: 120%;
+    text-align: left; }
+    #footer #footer-inner p {
+      border: 1px solid #444;
+      background: #333;
+      padding: 10px; }
